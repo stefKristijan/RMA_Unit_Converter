@@ -3,5 +3,6 @@
     <dimen name="screenPadTB">50dp</dimen>
     <dimen name="screenPadLR">10dp</dimen>
     <dimen name="btnMargin">10dp</dimen>
+    <dimen name="btnLayer">4dp</dimen>
     <item name="btnWeight" type="dimen" format="float">0.25</item>
 </resources>

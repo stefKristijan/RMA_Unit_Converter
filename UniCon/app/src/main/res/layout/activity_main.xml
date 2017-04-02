@@ -18,8 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="@dimen/btnWeight"
         android:layout_marginBottom="@dimen/btnMargin"
-        android:background="@drawable/button_lenght"
-
+        android:background="@drawable/button_length"
+        android:id="@+id/btnLength"
         />
 
 
@@ -29,7 +29,7 @@
         android:layout_weight="@dimen/btnWeight"
         android:layout_marginBottom="@dimen/btnMargin"
         android:background="@drawable/button_mass"
-
+        android:id="@+id/btnMass"
         />
 
 
@@ -40,11 +40,12 @@
         android:layout_weight="@dimen/btnWeight"
         android:layout_marginBottom="@dimen/btnMargin"
         android:background="@drawable/button_temperature"
+        android:id="@+id/btnTemperature"
         />
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnVolume"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="@dimen/btnWeight"

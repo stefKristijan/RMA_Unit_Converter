@@ -2,7 +2,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <layer-list>
-            <item android:left="@dimen/btnLayer" android:top="@dimen/btnLayer" android:drawable="@drawable/volume_click"/>
+            <item android:left="@dimen/btnLayer" android:top="@dimen/btnLayer" android:drawable="@drawable/length_click"/>
         </layer-list>
     </item>
     <item>
@@ -15,7 +15,7 @@
                 </shape>
             </item>
             <!-- CONTENT LAYER -->
-            <item android:bottom="@dimen/btnLayer" android:right="@dimen/btnLayer" android:drawable="@drawable/volume"/>
+            <item android:bottom="@dimen/btnLayer" android:right="@dimen/btnLayer" android:drawable="@drawable/length"/>
         </layer-list>
     </item>
 </selector>

@@ -2,28 +2,20 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <layer-list>
-            <item android:left="4dp" android:top="4dp" android:drawable="@drawable/mass_click">
-                <shape>
-                    <solid android:color="#ff58bb52" />
-                </shape>
-            </item>
+            <item android:left="@dimen/btnLayer" android:top="@dimen/btnLayer" android:drawable="@drawable/mass_click"/>
         </layer-list>
     </item>
     <item>
         <layer-list>
             <!-- SHADOW LAYER -->
-            <item android:left="4dp" android:top="4dp">
+            <item android:left="@dimen/btnLayer" android:top="@dimen/btnLayer">
                 <shape>
-                    <solid android:color="#222" />
+                    <solid android:color="@color/shadowColor" />
 
                 </shape>
             </item>
             <!-- CONTENT LAYER -->
-            <item android:bottom="4dp" android:right="4dp" android:drawable="@drawable/mass">
-                <shape>
-                    <solid android:color="#ff58bb52" />
-                </shape>
-            </item>
+            <item android:bottom="@dimen/btnLayer" android:right="@dimen/btnLayer" android:drawable="@drawable/mass"/>
         </layer-list>
     </item>
 </selector>
