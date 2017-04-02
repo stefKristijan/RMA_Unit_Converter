@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screenPadTB">50dp</dimen>
+    <dimen name="screenPadLR">10dp</dimen>
+    <dimen name="btnMargin">10dp</dimen>
+    <item name="btnWeight" type="dimen" format="float">0.25</item>
+</resources>
