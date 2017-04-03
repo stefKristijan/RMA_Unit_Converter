@@ -5,6 +5,8 @@
     <string name="mass_convert">MASS CONVERTER</string>
     <string name="temperature_convert">TEMPERATURE CONVERTER</string>
     <string name="length_convert">LENGTH CONVERTER</string>
+    <string name="btnConvert">CONVERT</string>
+    <string name="etHintText">Enter a value</string>
     <string-array name="length_units">
         <item>kilometer</item>
         <item>meter</item>
@@ -26,7 +28,7 @@
         <item>ton</item>
         <item>pound</item>
         <item>ounce</item>
-        <item>carrat</item>
+        <item>carat</item>
     </string-array>
 
     <string-array name="temperature_units">

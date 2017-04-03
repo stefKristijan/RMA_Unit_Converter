@@ -18,6 +18,8 @@ public class ConverterActivity extends Activity implements View.OnClickListener 
     public static final String KEY_UNIT1 = "unit1";
     public static final String KEY_UNIT2 = "unit2";
     public static final String KEY_VALUE = "value";
+    public static final String KEY_TITLE_RES = "title";
+    private int titleId;
     Spinner spinner1,spinner2;
     TextView tvConverter;
     EditText etNumber;
@@ -41,7 +43,8 @@ public class ConverterActivity extends Activity implements View.OnClickListener 
 
         Intent mainIntent = this.getIntent();
         if(mainIntent.hasExtra(MainActivity.KEY_UNIT ) && mainIntent.hasExtra(MainActivity.KEY_TITLE)){
-            tvConverter.setText(mainIntent.getStringExtra(MainActivity.KEY_TITLE));
+            titleId=mainIntent.getIntExtra(MainActivity.KEY_TITLE,0);
+            tvConverter.setText(getResources().getString(titleId));
             String[] units=mainIntent.getStringArrayExtra(MainActivity.KEY_UNIT);
             setSpinners(units);
         }
@@ -71,14 +74,15 @@ public class ConverterActivity extends Activity implements View.OnClickListener 
         if(this.etNumber.getText().toString().matches("")){
             Toast.makeText(this,"Please enter a value you want to convert",Toast.LENGTH_SHORT).show();
         }
-        else if (Float.valueOf(String.valueOf(this.etNumber.getText()))>=0){
+        else if (Float.valueOf(String.valueOf(this.etNumber.getText()))<=0){
             Toast.makeText(this,"Please enter a value bigger than 0",Toast.LENGTH_SHORT).show();
         }
         else{
             Intent intent = new Intent(getApplicationContext(),ResultActivity.class);
             intent.putExtra(KEY_UNIT1,String.valueOf(spinner1.getSelectedItem()));
-            intent.putExtra(KEY_UNIT2,String.valueOf(spinner1.getSelectedItem()));
-            intent.putExtra(KEY_VALUE,String.valueOf(spinner1.getSelectedItem()));
+            intent.putExtra(KEY_UNIT2,String.valueOf(spinner2.getSelectedItem()));
+            intent.putExtra(KEY_VALUE,etNumber.getText().toString());
+            intent.putExtra(KEY_TITLE_RES, titleId);
             this.startActivityForResult(intent,KEY_REQUEST_CONVERSION);
         }
 

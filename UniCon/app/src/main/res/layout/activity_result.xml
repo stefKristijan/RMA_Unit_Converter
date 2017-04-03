@@ -4,25 +4,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background1">
+    android:background="@drawable/background1"
 
+    >
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvValue1"/>
+        android:id="@+id/tvTitle"
+        style="@style/textview_title"
+        />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvUnit1"/>
+        style="@style/textview_value"
+        android:id="@+id/tvValue1"
+        />
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/textview_unit"
+        android:id="@+id/tvUnit1"
+        />
+    <TextView
+        style="@style/textview_value"
         android:id="@+id/tvValue2"/>
     <TextView
+        style="@style/textview_unit"
+        android:id="@+id/tvUnit2"/>
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvUnit2"/>
+        android:layout_weight="0.3"/>
 
 </LinearLayout>
 

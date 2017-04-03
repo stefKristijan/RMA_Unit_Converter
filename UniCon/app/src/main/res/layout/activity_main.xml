@@ -14,20 +14,14 @@
 
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="@dimen/btnWeight"
-        android:layout_marginBottom="@dimen/btnMargin"
+        style="@style/button_style"
         android:background="@drawable/button_length"
         android:id="@+id/btnLength"
         />
 
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="@dimen/btnWeight"
-        android:layout_marginBottom="@dimen/btnMargin"
+       style="@style/button_style"
         android:background="@drawable/button_mass"
         android:id="@+id/btnMass"
         />
@@ -35,21 +29,15 @@
 
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="@dimen/btnWeight"
-        android:layout_marginBottom="@dimen/btnMargin"
+        style="@style/button_style"
         android:background="@drawable/button_temperature"
         android:id="@+id/btnTemperature"
         />
 
 
     <Button
+        style="@style/button_style"
         android:id="@+id/btnVolume"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="@dimen/btnWeight"
-        android:layout_marginBottom="@dimen/btnMargin"
         android:background="@drawable/button_volume"
         />
 

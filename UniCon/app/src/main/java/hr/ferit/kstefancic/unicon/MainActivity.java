@@ -36,13 +36,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         Intent intent = new Intent(getApplicationContext(),ConverterActivity.class);
-        String[] units = null;
+        String[] units;
         Resources res=getResources();
         switch (v.getId()){
             case (R.id.btnMass):
                 units = res.getStringArray(R.array.mass_units);
-                intent.putExtra(KEY_UNIT,units);
                 intent.putExtra(KEY_TITLE, R.string.mass_convert);
+                intent.putExtra(KEY_UNIT,units);
                 this.startActivity(intent);
                 break;
             case(R.id.btnLength):
