@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">@dimen/btnWeight</item>
+        <item name="android:layout_marginBottom">@dimen/btnMargin</item>
+    </style>
+
+    <style name="textview_title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">@dimen/tvTitleWeight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tvTitleSize</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="spinner_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">@dimen/spinnerWeight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/customBlue</item>
+    </style>
+
+    <style name="textview_unit">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">@dimen/tvUnit</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tvUnitTextSize</item>
+        <item name="android:textColor">@color/customBlue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textview_value">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">@dimen/tvValueWeight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tvValueTxtSize</item>
+        <item name="android:textColor">@color/customBlue</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>

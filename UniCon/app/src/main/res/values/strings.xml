@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">UniCon</string>
+    <string name="spinnerPrompt">Choose a unit</string>
+    <string name="volume_convert">VOLUME CONVERTER</string>
+    <string name="mass_convert">MASS CONVERTER</string>
+    <string name="temperature_convert">TEMPERATURE CONVERTER</string>
+    <string name="length_convert">LENGTH CONVERTER</string>
+    <string name="btnConvert">CONVERT</string>
+    <string name="etHintText">Enter a value</string>
+    <string-array name="length_units">
+        <item>kilometer</item>
+        <item>meter</item>
+        <item>centimeter</item>
+        <item>millimeter</item>
+        <item>micrometer</item>
+        <item>nanometer</item>
+        <item>yard</item>
+        <item>mile</item>
+        <item>foot</item>
+        <item>inch</item>
+        <item>light year</item>
+    </string-array>
+
+    <string-array name="mass_units">
+        <item>kilogram</item>
+        <item>gram</item>
+        <item>milligram</item>
+        <item>ton</item>
+        <item>pound</item>
+        <item>ounce</item>
+        <item>carat</item>
+    </string-array>
+
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="volume_units">
+        <item>cubic kilometer</item>
+        <item>cubic meter</item>
+        <item>cubic centimeter</item>
+        <item>cubic millimeter</item>
+        <item>cubic mile</item>
+        <item>cubic yard</item>
+        <item>cubic foot</item>
+        <item>cubic inch</item>
+        <item>liter</item>
+        <item>milliliter</item>
+        <item>US gallon</item>
+        <item>US pint</item>
+        <item>US fluid ounce</item>
+        <item>imperial gallon</item>
+        <item>imperial pint</item>
+        <item>imperial fluid ounce</item>
+    </string-array>
+</resources>

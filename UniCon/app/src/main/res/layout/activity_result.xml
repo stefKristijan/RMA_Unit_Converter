@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+
+    >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/textview_title"
+        />
+
+    <TextView
+        style="@style/textview_value"
+        android:id="@+id/tvValue1"
+        />
+    <TextView
+        style="@style/textview_unit"
+        android:id="@+id/tvUnit1"
+        />
+    <TextView
+        style="@style/textview_value"
+        android:id="@+id/tvValue2"/>
+    <TextView
+        style="@style/textview_unit"
+        android:id="@+id/tvUnit2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"/>
+
+</LinearLayout>
+
