@@ -51,8 +51,8 @@ public class ConverterActivity extends Activity implements View.OnClickListener 
     }
 
     private void setSpinners(String[] units) {
-        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<String>(this, R.layout.spinner_item,units);
-        spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(this, R.layout.spinner_item,units);
+        spinnerAdapter.setDropDownViewResource(R.layout.spinner_item);
         spinner1.setAdapter(spinnerAdapter);
         spinner2.setAdapter(spinnerAdapter);
     }
@@ -73,9 +73,6 @@ public class ConverterActivity extends Activity implements View.OnClickListener 
     public void onClick(View v) {
         if(this.etNumber.getText().toString().matches("")){
             Toast.makeText(this,"Please enter a value you want to convert",Toast.LENGTH_SHORT).show();
-        }
-        else if (Float.valueOf(String.valueOf(this.etNumber.getText()))<=0){
-            Toast.makeText(this,"Please enter a value bigger than 0",Toast.LENGTH_SHORT).show();
         }
         else{
             Intent intent = new Intent(getApplicationContext(),ResultActivity.class);

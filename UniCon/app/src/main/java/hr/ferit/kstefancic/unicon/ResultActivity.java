@@ -57,6 +57,13 @@ public class ResultActivity extends Activity {
         }
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent();
+        setResult(RESULT_OK, intent);
+        super.onBackPressed();
+    }
+
     private float convertTemperature(String fromUnit, float value, String toUnit) {
         switch (fromUnit){
             case "Kelvin":
@@ -75,13 +82,6 @@ public class ResultActivity extends Activity {
                 break;
         }
         return value;
-    }
-
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent();
-        setResult(RESULT_OK, intent);
-        super.onBackPressed();
     }
 
     private float convertVolume(String fromUnit, float value, String toUnit) {
