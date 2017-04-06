@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\kico2_000\\Documents\\GitHub\\RMA_Unit_Converter\\UniCon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "C:\\Users\\kico2_000\\.android\\build-cache\\984f81c82d4c36ba5e32f50a2c033f516f1f1820\\output\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            }
+        ]
+    }
+]

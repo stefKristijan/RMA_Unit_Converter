@@ -1,0 +1,7 @@
+#Wed Apr 05 22:38:02 CEST 2017
+base.0=C\:\\Users\\kico2_000\\Documents\\GitHub\\RMA_Unit_Converter\\UniCon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_548603788081bec9532b44cb636c314878fda11e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\kico2_000\\Documents\\GitHub\\RMA_Unit_Converter\\UniCon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7455e303812c29e8d809c2c8485d5ead9a09079d\\classes.dex
+base.1=C\:\\Users\\kico2_000\\Documents\\GitHub\\RMA_Unit_Converter\\UniCon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7455e303812c29e8d809c2c8485d5ead9a09079d
+file.0=C\:\\Users\\kico2_000\\Documents\\GitHub\\RMA_Unit_Converter\\UniCon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_548603788081bec9532b44cb636c314878fda11e\\classes.dex

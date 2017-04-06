@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\kico2_000\Documents\GitHub\RMA_Unit_Converter\UniCon\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6db60a824f2e6acfe41cf9dcb27f5861935010f8">
+        <dex dex="C:\Users\kico2_000\Documents\GitHub\RMA_Unit_Converter\UniCon\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_548603788081bec9532b44cb636c314878fda11e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kico2_000\Documents\GitHub\RMA_Unit_Converter\UniCon\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\kico2_000\Documents\GitHub\RMA_Unit_Converter\UniCon\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7455e303812c29e8d809c2c8485d5ead9a09079d\classes.dex" />
+    </item>
+
+</items>
